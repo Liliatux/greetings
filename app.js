@@ -1,10 +1,6 @@
 console.log('have fun !');
 
-var form = {
-	first_name: " ",
-	last_name: " ",
-	city: " "
-}
+var form = {}
 
 function hello() {
 	$("#button").click(function() {
@@ -12,7 +8,6 @@ function hello() {
 		form["last_name"] = $("#last_name").val();
 		form["city"] = $("#city").val();
 		$("#username").text(form["first_name"] + form["last_name"]);
-		console.log(form);
 	});
 }
 
