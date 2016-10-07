@@ -1,10 +1,6 @@
 console.log('have fun !');
 
-var form = {
-	first_name: " ",
-	last_name: " ",
-	city: " "
-}
+var form = {}
 
 function hello() {
 	$("#button").click(function() {
